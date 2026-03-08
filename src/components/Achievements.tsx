@@ -5,117 +5,117 @@ const ACHIEVEMENTS = [
   {
     title: "Google Student Ambassador for Gemini",
     category: "Leadership",
-    image: "images/amolemail10gmail.comamolemail10gmail.com_page-0001.jpg"
+    image: "images/amolemail10gmail.comamolemail10gmail.com_page-0001.JPG"
   },
   {
     title: "Cognifyz Technology Data Analysis Intern",
     category: "Internship",
-    image: "images/Cognifyz Technology_page-0001.jpg"
+    image: "images/Cognifyz Technology_page-0001.JPG"
   },
   {
     title: "TCS ION Career Edge Certification",
     category: "Certification",
-    image: "images/tcsnqt.jpeg"
+    image: "images/tcsnqt.JPEG"
   },
   {
     title: "3RI technologies 10 Days Workshop on Data Science",
     category: "Workshop",
-    image: "images/data science workshop_page-0001.jpg"
+    image: "images/data science workshop_page-0001.JPG"
   },
   {
     title: "Tech Hub - Nexitrove Quiz Battle",
     category: "Certification",
-    image: "images/Tech- Hub_page-0001.jpg"
+    image: "images/Tech- Hub_page-0001.JPG"
   },
   {
     title: "Forge- Accenture",
     category: "Internship",
-    image: "images/Forage certificate_page-0001.jpg"
+    image: "images/Forage certificate_page-0001.JPG"
   },
   {
     title: "Yash 2K25",
     category: "Volunteer",
-    image: "images/yash2k25.jpeg"
+    image: "images/yash2k25.JPEG"
   },
   {
     title: "Inlighn tech",
     category: "Internship",
-    image: "images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
+    image: "images/Experience Letter Inlighn Tech Intership_page-0001.JPG"
   },
   {
     title: "Solution Challenge Organized by GDG",
     category: "Certification",
-    image: "my images/Solution Challenge Google.jpeg"
+    image: "my images/Solution Challenge Google.JPEG"
   },
   {
     title: "Google Student Ambassador for Gemini Onboarding",
     category: "Onboarding",
-    image: "images/GSA Onboarding.jpeg"
+    image: "images/GSA Onboarding.JPEG"
   },
   {
     title: "Googe Student Ambassador Welcome Kit",
     category: "Welcome Kit",
-    image: "images/Onboarding Kit.jpeg"
+    image: "images/Onboarding Kit.JPEG"
   },
   {
     title: "Scan & Win Sprint Organized by GSA",
     category: "Winner",
-    image: "images/Winner Of the scan & win Spirit.jpeg"
+    image: "images/Winner Of the scan & win Spirit.JPEG"
   },
   {
     title: "Devfest Goa 2025",
     category: "Certification",
-    image: "images/Devfest Goa 2k25.jpeg"
+    image: "images/Devfest Goa 2k25.JPEG"
   },
   {
     title: "Gemini Certified Educator ",
     category: "Certification",
-    image: "my images/Google Gemini_page-0001.jpg"
+    image: "my images/Google Gemini_page-0001.JPG"
   },
   {
     title: "GSA Rewards",
     category: "Milestone",
-    image: "images/Google swags.jpeg"
+    image: "images/Google swags.JPEG"
   },
   {
     title: "Mood Indigo IIT Bombay ",
     category: "Vendor",
-    image: "my images/Mood indigo IIt Bombay.jpeg"
+    image: "my images/Mood indigo IIt Bombay.JPEG"
   },
   {
     title: "GSA Promotion",
     category: "Achievment",
-    image: "images/Promotion GSA 2.0.jpeg"
+    image: "images/Promotion GSA 2.0.JPEG"
   },
   {
     title: "Best Event Organizer",
     category: "Appreciation",
-    image: "images/Best Event Organizer.jpeg"
+    image: "images/Best Event Organizer.JPEG"
   },
   {
     title: "India Tech summit Successfully Completed as GSA Lead Organizer",
     category: "Achievment",
-    image: "images/Gsa Lead Organizer.jpeg"
+    image: "images/Gsa Lead Organizer.JPEG"
   },
   {
     title: "Dipex Idea Presentation",
     category: "Appreciation",
-    image: "images/Dipex.jpeg"
+    image: "images/Dipex.JPEG"
   },
   {
     title: "Selection In all india Top 250 ambassadors",
     category: "Milestone",
-    image: "images/Top 250.jpeg"
+    image: "images/Top 250.JPEG"
   },
   {
     title: "Best GSA Leader ",
     category: "Appreciation",
-    image: "images/Letter of Appreciation_page-0001.jpg"
+    image: "images/Letter of Appreciation_page-0001.JPG"
   },
   {
     title: "Cognifyz Tecnologies Data Analysis Intern",
     category: "Intership",
-    image: "images/Cognifyz Technology_page-0001.jpg"
+    image: "images/Cognifyz Technology_page-0001.JPG"
   }
 
 
