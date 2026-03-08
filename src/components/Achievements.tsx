@@ -5,42 +5,42 @@ const ACHIEVEMENTS = [
   {
     title: "Google Student Ambassador for Gemini",
     category: "Leadership",
-    image: "my images/amolemail10gmail.comamolemail10gmail.com_page-0001.jpg"
+    image: "images/amolemail10gmail.comamolemail10gmail.com_page-0001.jpg"
   },
   {
     title: "Cognifyz Technology Data Analysis Intern",
     category: "Internship",
-    image: "my images/Cognifyz Technology_page-0001.jpg"
+    image: "images/Cognifyz Technology_page-0001.jpg"
   },
   {
     title: "TCS ION Career Edge Certification",
     category: "Certification",
-    image: "my images/tcsnqt.jpeg"
+    image: "images/tcsnqt.jpeg"
   },
   {
     title: "3RI technologies 10 Days Workshop on Data Science",
     category: "Workshop",
-    image: "my images/data science workshop_page-0001.jpg"
+    image: "images/data science workshop_page-0001.jpg"
   },
   {
     title: "Tech Hub - Nexitrove Quiz Battle",
     category: "Certification",
-    image: "my images/Tech- Hub_page-0001.jpg"
+    image: "images/Tech- Hub_page-0001.jpg"
   },
   {
     title: "Forge- Accenture",
     category: "Internship",
-    image: "my images/Forage certificate_page-0001.jpg"
+    image: "images/Forage certificate_page-0001.jpg"
   },
   {
     title: "Yash 2K25",
     category: "Volunteer",
-    image: "my images/yash2k25.jpeg"
+    image: "images/yash2k25.jpeg"
   },
   {
     title: "Inlighn tech",
     category: "Internship",
-    image: "my images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
+    image: "images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
   },
   {
     title: "Solution Challenge Organized by GDG",
@@ -50,22 +50,22 @@ const ACHIEVEMENTS = [
   {
     title: "Google Student Ambassador for Gemini Onboarding",
     category: "Onboarding",
-    image: "my images/GSA Onboarding.jpeg"
+    image: "images/GSA Onboarding.jpeg"
   },
   {
     title: "Googe Student Ambassador Welcome Kit",
     category: "Welcome Kit",
-    image: "my images/Onboarding Kit.jpeg"
+    image: "images/Onboarding Kit.jpeg"
   },
   {
     title: "Scan & Win Sprint Organized by GSA",
     category: "Winner",
-    image: "my images/Winner Of the scan & win Spirit.jpeg"
+    image: "images/Winner Of the scan & win Spirit.jpeg"
   },
   {
     title: "Devfest Goa 2025",
     category: "Certification",
-    image: "my images/Devfest Goa 2k25.jpeg"
+    image: "images/Devfest Goa 2k25.jpeg"
   },
   {
     title: "Gemini Certified Educator ",
@@ -75,7 +75,7 @@ const ACHIEVEMENTS = [
   {
     title: "GSA Rewards",
     category: "Milestone",
-    image: "my images/Google swags.jpeg"
+    image: "images/Google swags.jpeg"
   },
   {
     title: "Mood Indigo IIT Bombay ",
@@ -85,37 +85,37 @@ const ACHIEVEMENTS = [
   {
     title: "GSA Promotion",
     category: "Achievment",
-    image: "my images/Promotion GSA 2.0.jpeg"
+    image: "images/Promotion GSA 2.0.jpeg"
   },
   {
     title: "Best Event Organizer",
     category: "Appreciation",
-    image: "my images/Best Event Organizer.jpeg"
+    image: "images/Best Event Organizer.jpeg"
   },
   {
     title: "India Tech summit Successfully Completed as GSA Lead Organizer",
     category: "Achievment",
-    image: "my images/Gsa Lead Organizer.jpeg"
+    image: "images/Gsa Lead Organizer.jpeg"
   },
   {
     title: "Dipex Idea Presentation",
     category: "Appreciation",
-    image: "my images/Dipex.jpeg"
+    image: "images/Dipex.jpeg"
   },
   {
     title: "Selection In all india Top 250 ambassadors",
     category: "Milestone",
-    image: "my images/Top 250.jpeg"
+    image: "images/Top 250.jpeg"
   },
   {
     title: "Best GSA Leader ",
     category: "Appreciation",
-    image: "my images/Letter of Appreciation_page-0001.jpg"
+    image: "images/Letter of Appreciation_page-0001.jpg"
   },
   {
     title: "Cognifyz Tecnologies Data Analysis Intern",
     category: "Intership",
-    image: "my images/Cognifyz Technology_page-0001.jpg"
+    image: "images/Cognifyz Technology_page-0001.jpg"
   }
 
 

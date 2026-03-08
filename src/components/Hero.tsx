@@ -139,7 +139,7 @@ export function Hero() {
               {/* Image Container */}
               <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/30 glass shadow-2xl">
                 <motion.img
-                  src="my images/Photo.jpeg"
+                  src="images/Photo.jpeg"
                   alt="Amol Patil"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

@@ -20,7 +20,7 @@ export function About() {
             className="lg:col-span-4 glass-morphism overflow-hidden aspect-square lg:aspect-auto relative group rounded-[2rem]"
           >
             <img
-              src="my images/141930.jpg.jpeg"
+              src="images/141930.jpg.jpeg"
               alt="Amol Patil"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
