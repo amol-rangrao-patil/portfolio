@@ -112,14 +112,7 @@ const ACHIEVEMENTS = [
     category: "Appreciation",
     image: "/images/Letter of Appreciation_page-0001.jpg"
   },
-  {
-    title: "Cognifyz Tecnologies Data Analysis Intern",
-    category: "Intership",
-    image: "/images/Cognifyz Technology_page-0001.jpg"
-  }
-
-
-
+  
 
 ];
 
