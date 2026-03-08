@@ -76,7 +76,7 @@ export function About() {
                 { label: "Education", value: "Diploma", icon: "🎓" },
                 { label: "Focus Area", value: "Data & AI", icon: "📈" },
                 { label: "Expertise", value: "EDA & ML  ", icon: "✨" },
-                { label: "Based In", value: "Pune, India", icon: "📍" },
+                { label: "Based In", value: "Kolhapur, India", icon: "📍" },
               ].map((stat, i) => (
                 <motion.div 
                   key={i}
