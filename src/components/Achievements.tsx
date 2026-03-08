@@ -25,97 +25,97 @@ const ACHIEVEMENTS = [
   {
     title: "Tech Hub - Nexitrove Quiz Battle",
     category: "Certification",
-    image: "images/Tech- Hub_page-0001.JPG"
+    image: "/images/Tech- Hub_page-0001.jpg"
   },
   {
     title: "Forge- Accenture",
     category: "Internship",
-    image: "/images/Forage certificate_page-0001.JPG"
+    image: "/images/Forage certificate_page-0001.jpg"
   },
   {
     title: "Yash 2K25",
     category: "Volunteer",
-    image: "/images/yash2k25.JPEG"
+    image: "/images/yash2k25.jpeg"
   },
   {
     title: "Inlighn tech",
     category: "Internship",
-    image: "images/Experience Letter Inlighn Tech Intership_page-0001.JPG"
+    image: "/images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
   },
   {
     title: "Solution Challenge Organized by GDG",
     category: "Certification",
-    image: "/images/Solution Challenge Google.JPEG"
+    image: "/images/Solution Challenge Google.jpeg"
   },
   {
     title: "Google Student Ambassador for Gemini Onboarding",
     category: "Onboarding",
-    image: "images/GSA Onboarding.JPEG"
+    image: "/images/GSA Onboarding.jpeg"
   },
   {
     title: "Googe Student Ambassador Welcome Kit",
     category: "Welcome Kit",
-    image: "/images/Onboarding Kit.JPEG"
+    image: "/images/Onboarding Kit.jpeg"
   },
   {
     title: "Scan & Win Sprint Organized by GSA",
     category: "Winner",
-    image: "/images/Winner Of the scan & win Spirit.JPEG"
+    image: "/images/Winner Of the scan & win Spirit.jpeg"
   },
   {
     title: "Devfest Goa 2025",
     category: "Certification",
-    image: "images/Devfest Goa 2k25.JPEG"
+    image: "/images/Devfest Goa 2k25.jpeg"
   },
   {
     title: "Gemini Certified Educator ",
     category: "Certification",
-    image: "/images/Google Gemini_page-0001.JPG"
+    image: "/images/Google Gemini_page-0001.jpg"
   },
   {
     title: "GSA Rewards",
     category: "Milestone",
-    image: "images/Google swags.JPEG"
+    image: "/images/Google swags.jpeg"
   },
   {
     title: "Mood Indigo IIT Bombay ",
     category: "Vendor",
-    image: "/images/Mood indigo IIt Bombay.JPEG"
+    image: "/images/Mood indigo IIt Bombay.jpeg"
   },
   {
     title: "GSA Promotion",
     category: "Achievment",
-    image: "images/Promotion GSA 2.0.JPEG"
+    image: "/images/Promotion GSA 2.0.jpeg"
   },
   {
     title: "Best Event Organizer",
     category: "Appreciation",
-    image: "/images/Best Event Organizer.JPEG"
+    image: "/images/Best Event Organizer.jpeg"
   },
   {
     title: "India Tech summit Successfully Completed as GSA Lead Organizer",
     category: "Achievment",
-    image: "/images/Gsa Lead Organizer.JPEG"
+    image: "/images/Gsa Lead Organizer.jpeg"
   },
   {
     title: "Dipex Idea Presentation",
     category: "Appreciation",
-    image: "/images/Dipex.JPEG"
+    image: "/images/Dipex.jpeg"
   },
   {
     title: "Selection In all india Top 250 ambassadors",
     category: "Milestone",
-    image: "images/Top 250.JPEG"
+    image: "images/Top 250.jpeg"
   },
   {
     title: "Best GSA Leader ",
     category: "Appreciation",
-    image: "/images/Letter of Appreciation_page-0001.JPG"
+    image: "/images/Letter of Appreciation_page-0001.jpg"
   },
   {
     title: "Cognifyz Tecnologies Data Analysis Intern",
     category: "Intership",
-    image: "/images/Cognifyz Technology_page-0001.JPG"
+    image: "/images/Cognifyz Technology_page-0001.jpg"
   }
 
 
