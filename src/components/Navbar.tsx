@@ -117,7 +117,7 @@ export function Navbar() {
             className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden ring-2 ring-primary/50 group-hover:ring-primary transition-all shadow-lg shadow-primary/30"
           >
             <img
-              src="/images/Navbar Photo.jpeg"
+              src="/images/logo.png"
               alt="Amol Patil"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
