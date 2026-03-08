@@ -28,7 +28,7 @@ const ACHIEVEMENTS = [
     image: "/images/Tech- Hub_page-0001.jpg"
   },
   {
-    title: "Forge- Accenture",
+    title: "Forge- Accenture virtual intership ",
     category: "Internship",
     image: "/images/Forage certificate_page-0001.jpg"
   },
@@ -38,7 +38,7 @@ const ACHIEVEMENTS = [
     image: "/images/yash2k25.jpeg"
   },
   {
-    title: "Inlighn tech",
+    title: "Inlighn tech data analysis intern",
     category: "Internship",
     image: "/images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
   },
