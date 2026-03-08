@@ -15,12 +15,12 @@ const ACHIEVEMENTS = [
   {
     title: "TCS ION Career Edge Certification",
     category: "Certification",
-    image: "/images/tcsnqt.JPEG"
+    image: "/images/tcsnqt.jpeg"
   },
   {
     title: "3RI technologies 10 Days Workshop on Data Science",
     category: "Workshop",
-    image: "/images/data science workshop_page-0001.JPG"
+    image: "/images/data science workshop_page-0001.jpg"
   },
   {
     title: "Tech Hub - Nexitrove Quiz Battle",
