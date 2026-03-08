@@ -5,12 +5,12 @@ const ACHIEVEMENTS = [
   {
     title: "Google Student Ambassador for Gemini",
     category: "Leadership",
-    image: "/images/amolemail10gmail.comamolemail10gmail.com_page-0001.JPG"
+    image: "/images/amolemail10gmail.comamolemail10gmail.com_page-0001.jpg"
   },
   {
     title: "Cognifyz Technology Data Analysis Intern",
     category: "Internship",
-    image: "/images/Cognifyz Technology_page-0001.JPG"
+    image: "/images/CognifyzTechnology_page-0001.jpg"
   },
   {
     title: "TCS ION Career Edge Certification",
