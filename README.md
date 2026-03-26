@@ -6,11 +6,9 @@ A modern, responsive, and highly interactive portfolio website showcasing my ski
 
 ## 📸 Screenshots
 
-*(You can replace these placeholder paths with the actual paths to your best application screenshots)*
-
-| Hero Section | Home Screen |
-| :---: | :---: |
-| <img src="./public/images/Navbar Photo.jpeg" width="400" alt="Navbar"/> | <img src="./public/images/logo.png" width="400" alt="Logo"/> |
+| Live Desktop View |
+| :---: |
+| <img src="./public/images/home_screenshot.png" alt="Live Portfolio View"/> |
 
 ## 🚀 Features
 
@@ -96,5 +94,4 @@ If you are redeploying or deploying a fork:
 ## 🤝 Contact & Connections
 
 Feel free to reach out for collaborations or just a friendly chat!
-- **Email:** amolemail10@gmail.com
-- **Location:** Kolhapur, India
+- **LinkedIn:** [Amol Patil](https://linkedin.com/in/amol-rangrao-patil)
