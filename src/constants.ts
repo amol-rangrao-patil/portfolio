@@ -35,10 +35,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "5",
-    title: "AI-Powered Campus Resource Navigator (RAG Chatbot)",
-    description: "An intelligent Retrieval-Augmented Generation chatbot that helps students navigate campus resources, answer queries using knowledge base, and provide personalized recommendations.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop",
-    tags: ["Generative AI", "RAG", "LLMs", "Chatbot"],
+    title: "AI-Powered Data Analytics",
+    description: "A modern, AI-powered data analytics web application enabling automatic dataset cleaning, processing, and generating actionable business insights and trend predictions.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    tags: ["React", "AI Analytics", "Data Processing", "Generative AI"],
     link: "#",
   },
 ];
