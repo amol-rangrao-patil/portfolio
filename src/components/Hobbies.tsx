@@ -14,8 +14,8 @@ export function Hobbies() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
           {[
-            { name: "Playing Hockey", icon: "🏑", color: "from-blue-500/20" },
-            { name: "Listening Podcasts", icon: "🎙️", color: "from-purple-500/20" },
+            { name: "Playing Hockey", icon: "🏑", color: "from-cyan-500/20" },
+            { name: "Listening Podcasts", icon: "🎙️", color: "from-amber-500/20" },
             { name: "Read Tech Books", icon: "📚", color: "from-emerald-500/20" },
             { name: "Exploring AI", icon: "🤖", color: "from-orange-500/20" },
           ].map((hobby, i) => (

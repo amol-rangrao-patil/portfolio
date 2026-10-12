@@ -8,7 +8,7 @@ const ACHIEVEMENTS = [
     image: "/images/amolemail10gmail.comamolemail10gmail.com_page-0001.jpg"
   },
   {
-    title: "Cognifyz Technology Data Analysis Intern",
+    title: "Cognifyz Technology Data Analysis Internship",
     category: "Internship",
     image: "/images/CognifyzTechnology_page-0001.jpg"
   },
@@ -18,33 +18,33 @@ const ACHIEVEMENTS = [
     image: "/images/tcsnqt.jpeg"
   },
   {
-    title: "3RI technologies 10 Days Workshop on Data Science",
+    title: "10-Day Data Science Workshop by 3RI Technologies",
     category: "Workshop",
     image: "/images/data science workshop_page-0001.jpg"
   },
   {
-    title: "Tech Hub - Nexitrove Quiz Battle",
-    category: "Certification",
+    title: "Tech Hub - Nexitrove Quiz Battle Participation",
+    category: "Competition",
     image: "/images/Tech- Hub_page-0001.jpg"
   },
   {
-    title: "Forge- Accenture virtual intership ",
-    category: "Internship",
+    title: "Accenture Forage Virtual Experience",
+    category: "Virtual Experience",
     image: "/images/Forage certificate_page-0001.jpg"
   },
   {
-    title: "Yash 2K25",
-    category: "Volunteer",
+    title: "Yash 2K25 Event Volunteer",
+    category: "Volunteering",
     image: "/images/yash2k25.jpeg"
   },
   {
-    title: "Inlighn tech data analysis intern",
+    title: "Inlighn Tech Data Analysis Internship",
     category: "Internship",
     image: "/images/Experience Letter Inlighn Tech Intership_page-0001.jpg"
   },
   {
-    title: "Solution Challenge Organized by GDG",
-    category: "Certification",
+    title: "Google Solution Challenge Participation",
+    category: "Competition",
     image: "/images/Solution Challenge Google.jpeg"
   },
   {
@@ -53,38 +53,38 @@ const ACHIEVEMENTS = [
     image: "/images/GSA Onboarding.jpeg"
   },
   {
-    title: "Googe Student Ambassador Welcome Kit",
-    category: "Welcome Kit",
+    title: "Google Student Ambassador Welcome Kit",
+    category: "Milestone",
     image: "/images/Onboarding Kit.jpeg"
   },
   {
-    title: "Scan & Win Sprint Organized by GSA",
-    category: "Winner",
+    title: "Scan & Win Sprint Winner",
+    category: "Award",
     image: "/images/Winner Of the scan & win Spirit.jpeg"
   },
   {
-    title: "Devfest Goa 2025",
-    category: "Certification",
+    title: "DevFest Goa 2025 Participation",
+    category: "Event",
     image: "/images/Devfest Goa 2k25.jpeg"
   },
   {
-    title: "Gemini Certified Educator ",
+    title: "Gemini Certified Educator",
     category: "Certification",
     image: "/images/Google Gemini_page-0001.jpg"
   },
   {
-    title: "GSA Rewards",
+    title: "Google Student Ambassador Rewards",
     category: "Milestone",
     image: "/images/Google swags.jpeg"
   },
   {
-    title: "Mood Indigo IIT Bombay ",
-    category: "Vendor",
+    title: "Mood Indigo, IIT Bombay - Vendor Participation",
+    category: "Participation",
     image: "/images/Mood indigo IIt Bombay.jpeg"
   },
   {
-    title: "GSA Promotion",
-    category: "Achievment",
+    title: "Google Student Ambassador Promotion",
+    category: "Milestone",
     image: "/images/Promotion GSA 2.0.jpeg"
   },
   {
@@ -93,8 +93,8 @@ const ACHIEVEMENTS = [
     image: "/images/Best Event Organizer.jpeg"
   },
   {
-    title: "India Tech summit Successfully Completed as GSA Lead Organizer",
-    category: "Achievment",
+    title: "India Tech Summit - GSA Lead Organizer",
+    category: "Leadership",
     image: "/images/Gsa Lead Organizer.jpeg"
   },
   {
@@ -103,13 +103,13 @@ const ACHIEVEMENTS = [
     image: "/images/Dipex.jpeg"
   },
   {
-    title: "Selection In all india Top 250 ambassadors",
+    title: "Selected Among India's Top 250 Ambassadors",
     category: "Milestone",
-    image: "images/Top 250.jpeg"
+    image: "/images/Top 250.jpeg"
   },
   {
-    title: "Best GSA Leader ",
-    category: "Appreciation",
+    title: "Best GSA Leader Recognition",
+    category: "Award",
     image: "/images/Letter of Appreciation_page-0001.jpg"
   },
   
@@ -130,7 +130,7 @@ export function Achievements() {
           <div className="flex overflow-hidden gap-6 sm:gap-10 py-10 mask-fade-edges">
             <motion.div 
               animate={{ x: ["0%", "-50%"] }}
-              transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+              transition={{ duration: 90, repeat: Infinity, ease: "linear" }}
               className="flex gap-6 sm:gap-10 shrink-0"
             >
               {ACHIEVEMENTS.map((achievement, i) => (
@@ -142,7 +142,7 @@ export function Achievements() {
                   <img 
                     src={achievement.image} 
                     alt={achievement.title}
-                    className="w-full h-full object-cover grayscale group-hover/item:grayscale-0 transition-all duration-700 group-hover/item:scale-110"
+                    className="w-full h-full object-contain bg-background/70 p-2 grayscale group-hover/item:grayscale-0 transition-all duration-700 group-hover/item:scale-105"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-60 group-hover/item:opacity-90 transition-opacity p-6 sm:p-10 flex flex-col justify-end">
@@ -161,7 +161,7 @@ export function Achievements() {
                   <img 
                     src={achievement.image} 
                     alt={achievement.title}
-                    className="w-full h-full object-cover grayscale group-hover/item:grayscale-0 transition-all duration-700 group-hover/item:scale-110"
+                    className="w-full h-full object-contain bg-background/70 p-2 grayscale group-hover/item:grayscale-0 transition-all duration-700 group-hover/item:scale-105"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-60 group-hover/item:opacity-90 transition-opacity p-6 sm:p-10 flex flex-col justify-end">

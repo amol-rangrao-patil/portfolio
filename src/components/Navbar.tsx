@@ -131,7 +131,7 @@ export function Navbar() {
           <motion.span
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
-            className="inline-block bg-gradient-to-r from-primary via-purple-500 to-indigo-500 bg-clip-text text-transparent italic font-black text-xs sm:text-sm md:text-base tracking-tight group-hover:from-primary group-hover:via-indigo-500 group-hover:to-purple-500 transition-all duration-300"
+            className="inline-block bg-gradient-to-r from-primary via-cyan-400 to-amber-400 bg-clip-text text-transparent italic font-black text-xs sm:text-sm md:text-base tracking-tight group-hover:from-primary group-hover:via-amber-400 group-hover:to-cyan-400 transition-all duration-300"
           >
           AMOL PATIL
           </motion.span>
@@ -176,7 +176,7 @@ export function Navbar() {
                 {isActive && (
                   <motion.span
                     layoutId="nav-pill"
-                    className="absolute inset-x-0 -bottom-1 h-0.5 bg-gradient-to-r from-primary to-purple-500"
+                    className="absolute inset-x-0 -bottom-1 h-0.5 bg-gradient-to-r from-primary to-amber-400"
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
                   />
                 )}

@@ -96,7 +96,7 @@ export function NightSky() {
           repeat: Infinity,
           ease: "linear"
         }}
-        className="absolute bottom-0 left-0 w-[200%] h-[40%] bg-gradient-to-t from-blue-900/20 to-transparent blur-3xl"
+        className="absolute bottom-0 left-0 w-[200%] h-[40%] bg-gradient-to-t from-teal-900/20 to-transparent blur-3xl"
       />
     </div>
   );

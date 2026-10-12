@@ -77,6 +77,17 @@ export const SKILLS: Skill[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
+    company: "Participant",
+    role: "Google Cloud Arcade Program",
+    period: "Completed",
+    description: [
+      "Completed advanced gamified labs, trivia challenges, and cloud quests on the Google Cloud Skills Boost platform.",
+      "Gained practical knowledge in configuring cloud storage, deploying virtual machines, and managing IAM security policies.",
+      "Interacted with data analytics tools and explored foundational cloud computing concepts through structured learning tracks.",
+      "Successfully earned official Google Cloud skill badges and unlocked performance-based milestones.",
+    ],
+  },
+  {
     company: "Google Gemini",
     role: "Google Student Ambassador",
     period: "Aug 2025 - Present",

@@ -32,7 +32,7 @@ export function Hero() {
               className="relative group"
             >
               {/* Blurred Background for Glass Effect */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 via-purple-500/50 to-indigo-500/50 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity duration-500 animate-pulse" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 via-cyan-400/50 to-amber-400/50 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity duration-500 animate-pulse" />
               
               {/* Glass Card Content */}
               <div className="relative bg-background/40 backdrop-blur-2xl border-2 border-white/30 rounded-3xl p-8 sm:p-12 shadow-2xl hover:border-white/50 transition-all duration-500">
@@ -55,7 +55,7 @@ export function Hero() {
                           repeat: Infinity,
                           repeatType: "reverse",
                         }}
-                        className="bg-gradient-to-r from-primary via-purple-500 to-indigo-500 bg-clip-text text-transparent bg-300% inline-block"
+                        className="bg-gradient-to-r from-primary via-cyan-400 to-amber-400 bg-clip-text text-transparent bg-300% inline-block"
                       >
                         Amol Patil
                       </motion.span>
@@ -126,14 +126,14 @@ export function Hero() {
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
-                className="absolute -inset-8 bg-gradient-to-r from-primary/40 via-purple-500/40 to-indigo-500/40 rounded-full blur-3xl"
+                className="absolute -inset-8 bg-gradient-to-r from-primary/40 via-cyan-400/40 to-amber-400/40 rounded-full blur-3xl"
               />
 
               {/* Outer Ring */}
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                className="absolute -inset-4 rounded-full border-2 border-transparent bg-gradient-to-r from-primary via-purple-500 to-indigo-500 bg-clip-border opacity-50"
+                className="absolute -inset-4 rounded-full border-2 border-transparent bg-gradient-to-r from-primary via-cyan-400 to-amber-400 bg-clip-border opacity-50"
               />
 
               {/* Image Container */}

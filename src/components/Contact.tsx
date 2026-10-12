@@ -85,7 +85,9 @@ export function Contact() {
 
             <div className="pt-8 sm:pt-12 border-t border-white/10 text-center">
               <motion.a
-                href="https://linkedin.com/in/amol-rangrao-patil"
+                href="https://wa.me/918669750625"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-primary text-primary-foreground font-black shadow-2xl shadow-primary/30 hover:shadow-primary/50 transition-all text-base uppercase tracking-widest"

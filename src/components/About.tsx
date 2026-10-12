@@ -11,31 +11,13 @@ export function About() {
           highlight="Me" 
           subtitle="A dedicated student and AI enthusiast bridging the gap between data and intelligent solutions."
         />
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          {/* Image Bento Box */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="lg:col-span-4 glass-morphism overflow-hidden aspect-square lg:aspect-auto relative group rounded-[2rem]"
-          >
-            <img
-              src="/images/141930.jpeg"
-              alt="Amol Patil"
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
-              referrerPolicy="no-referrer"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
-              <p className="text-white font-bold tracking-widest uppercase text-sm">Amol Patil</p>
-            </div>
-          </motion.div>
-
+        <div className="grid grid-cols-1 gap-6">
           {/* Content Bento Box */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="lg:col-span-8 p-8 sm:p-12 glass-morphism flex flex-col justify-center relative overflow-hidden rounded-[2rem]"
+            className="p-8 sm:p-12 glass-morphism flex flex-col justify-center relative overflow-hidden rounded-[2rem]"
           >
             <div className="absolute top-0 right-0 p-8 opacity-5">
               <Sparkles className="w-32 h-32 text-primary" />
@@ -46,7 +28,7 @@ export function About() {
             </h2>
             <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
               <p>
-                I am <span className="text-foreground font-bold">Amol Rangrao Patil</span>, a dedicated student currently pursuing a Diploma in Computer Science & Engineering. 
+                I am <span className="text-foreground font-bold">Amol Rangrao Patil</span>, a dedicated student currently pursuing a B.Tech in Computer Science & Engineering (Data Science). 
                 My passion lies in the intersection of <span className="text-primary font-medium">data and artificial intelligence</span>. 
                 As a <span className="text-foreground font-bold underline decoration-primary/30 underline-offset-4">Google Student Ambassador</span> for Gemini, I thrive on sharing the power of AI tools with my community.
               </p>
@@ -73,7 +55,7 @@ export function About() {
               className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mt-8 sm:mt-12"
             >
               {[
-                { label: "Education", value: "Diploma", icon: "🎓" },
+                { label: "Education", value: "B.Tech", icon: "🎓" },
                 { label: "Focus Area", value: "Data & AI", icon: "📈" },
                 { label: "Expertise", value: "EDA & ML  ", icon: "✨" },
                 { label: "Based In India", value: "Kolhapur", icon: "📍" },

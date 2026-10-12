@@ -1,0 +1,18 @@
+{
+  "name": "Amol Patil | Data Analyst & AI Enthusiast",
+  "short_name": "Amol Patil",
+  "description": "Portfolio of Amol Rangrao Patil, a data analyst and AI enthusiast.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071716",
+  "theme_color": "#071716",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

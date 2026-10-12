@@ -10,7 +10,7 @@ Your goal is to answer questions about Amol's professional background, skills, a
 Key Information about Amol:
 - Name: Amol Rangrao Patil
 - Role: Data Scientist & AI Engineer
-- Education: Diploma in Computer Science & Engineering from DKTE Society's Yashwantrao Chavan Polytechnic (2023-2026).
+- Education: Currently pursuing a B.Tech in Computer Science & Engineering (Data Science) at D. Y. Patil College of Engineering and Technology, Kolhapur. Previously completed a Diploma in Computer Science & Engineering from DKTE Society's Yashwantrao Chavan Polytechnic (2023-2026).
 - SSC Score: 88.20% from D. C. Narke Vidyaniketan & Jr. College.
 - Current Status: Google Student Ambassador for Gemini.
 - Internships: 
@@ -124,12 +124,12 @@ export function AIChat() {
                   className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
                 >
                   <div className={`flex gap-3 max-w-[85%] ${msg.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
-                    <div className={`w-8 h-8 rounded-xl flex-shrink-0 flex items-center justify-center shadow-lg ${msg.role === "user" ? "bg-purple-500" : "bg-primary"}`}>
+                    <div className={`w-8 h-8 rounded-xl flex-shrink-0 flex items-center justify-center shadow-lg ${msg.role === "user" ? "bg-amber-500" : "bg-primary"}`}>
                       {msg.role === "user" ? <User className="w-4 h-4 text-white" /> : <Bot className="w-4 h-4 text-white" />}
                     </div>
                     <div className={`p-4 rounded-2xl text-sm leading-relaxed ${
                       msg.role === "user" 
-                        ? "bg-purple-500/10 text-foreground rounded-tr-none border border-purple-500/20" 
+                        ? "bg-amber-500/10 text-foreground rounded-tr-none border border-amber-500/20"
                         : "bg-primary/10 text-foreground rounded-tl-none border border-primary/20"
                     }`}>
                       {msg.text}

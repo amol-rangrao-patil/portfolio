@@ -30,7 +30,7 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 262.1 83.3% 57.8%;
+    --primary: 174 77% 35%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -42,7 +42,8 @@
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 32% 91.4%;
     --input: 214.3 32% 91.4%;
-    --ring: 262.1 83.3% 57.8%;
+    --ring: 174 77% 35%;
+    --grid-line: 174 77% 35%;
     --radius: 0.75rem;
   }
 
@@ -53,7 +54,7 @@
     --card-foreground: 210 20% 98%;
     --popover: 230 50% 4%;
     --popover-foreground: 210 20% 98%;
-    --primary: 263.4 70% 60%;
+    --primary: 171 75% 48%;
     --primary-foreground: 210 20% 98%;
     --secondary: 230 40% 10%;
     --secondary-foreground: 210 20% 98%;
@@ -65,7 +66,29 @@
     --destructive-foreground: 210 20% 98%;
     --border: 230 40% 12%;
     --input: 230 40% 12%;
-    --ring: 263.4 70% 60%;
+    --ring: 171 75% 48%;
+    --grid-line: 183 65% 50%;
+  }
+
+  .tech {
+    --background: 164 45% 97%;
+    --foreground: 198 42% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 198 42% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 198 42% 12%;
+    --primary: 174 78% 32%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 168 35% 91%;
+    --secondary-foreground: 198 42% 12%;
+    --muted: 168 35% 91%;
+    --muted-foreground: 198 18% 38%;
+    --accent: 42 96% 45%;
+    --accent-foreground: 198 42% 12%;
+    --border: 168 30% 82%;
+    --input: 168 30% 82%;
+    --ring: 174 78% 32%;
+    --grid-line: 174 78% 32%;
   }
 }
 
@@ -77,14 +100,29 @@
     scroll-behavior: smooth;
   }
   body {
+    min-width: 320px;
     background-color: var(--color-background);
+    background-image:
+      linear-gradient(hsl(var(--grid-line) / 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--grid-line) / 0.08) 1px, transparent 1px);
+    background-size: 48px 48px;
     color: var(--color-foreground);
     font-feature-settings: "rlig" 1, "calt" 1;
     @apply antialiased;
   }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
+  }
   
   ::selection {
-    background-color: rgba(139, 92, 246, 0.3);
+    background-color: hsl(var(--primary) / 0.3);
     color: var(--color-primary);
   }
 
@@ -96,12 +134,12 @@
     background: var(--color-background);
   }
   ::-webkit-scrollbar-thumb {
-    background: rgba(139, 92, 246, 0.4);
+    background: hsl(var(--primary) / 0.4);
     border-radius: 5px;
     border: 2px solid var(--color-background);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(139, 92, 246, 0.6);
+    background: hsl(var(--primary) / 0.6);
   }
 }
 
@@ -123,6 +161,14 @@
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+.tech .glass {
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  backdrop-filter: blur(12px) saturate(150%);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(13, 148, 136, 0.16);
+  box-shadow: 0 8px 32px rgba(13, 78, 73, 0.1);
+}
+
 .glass-morphism {
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   backdrop-filter: blur(20px) saturate(160%);
@@ -142,6 +188,16 @@
   box-shadow: 
     0 10px 40px -10px rgba(0, 0, 0, 0.6),
     inset 0 0 0 1px rgba(255, 255, 255, 0.01);
+}
+
+.tech .glass-morphism {
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: blur(20px) saturate(150%);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(13, 148, 136, 0.18);
+  box-shadow:
+    0 18px 45px rgba(13, 78, 73, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.65);
 }
 
 .noise-bg {
@@ -166,10 +222,10 @@
 
   @keyframes glow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(139, 92, 246, 0.6);
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
     }
   }
 
@@ -248,13 +304,13 @@
 
   @keyframes pulse-ring {
     0% {
-      box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.7);
+      box-shadow: 0 0 0 0 hsl(var(--primary) / 0.7);
     }
     70% {
-      box-shadow: 0 0 0 10px rgba(139, 92, 246, 0);
+      box-shadow: 0 0 0 10px hsl(var(--primary) / 0);
     }
     100% {
-      box-shadow: 0 0 0 0 rgba(139, 92, 246, 0);
+      box-shadow: 0 0 0 0 hsl(var(--primary) / 0);
     }
   }
 

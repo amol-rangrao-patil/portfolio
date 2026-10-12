@@ -11,7 +11,7 @@ export function Footer() {
           <motion.a
             href="#"
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-display font-bold tracking-tighter bg-gradient-to-r from-primary to-purple-400 bg-clip-text text-transparent"
+            className="text-2xl font-display font-bold tracking-tighter bg-gradient-to-r from-primary to-amber-400 bg-clip-text text-transparent"
           >
             AMOL PATIL
           </motion.a>
